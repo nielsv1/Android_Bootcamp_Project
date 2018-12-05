@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chapter_2.BruschettaMain">
+
+    <ImageView
+        android:id="@+id/ch2_bruschetta_imageView"
+        android:layout_width="336dp"
+        android:layout_height="249dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bruschetta" />
+
+    <Button
+        android:id="@+id/ch2_bruschetta_btnRecipe"
+        android:layout_width="112dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="412dp"
+        android:layout_marginEnd="124dp"
+        android:text="@string/ch2_bruschetta_btnRecipe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ch2_bruschetta_title"
+        android:layout_width="324dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/ch2_bruschetta_title"
+        android:textSize="36sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

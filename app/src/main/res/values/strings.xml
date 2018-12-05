@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Android Bootcamp Project</string>
+
+    <string name="ch2_bruschetta_title">Bruschetta Recipe</string>
+    <string name="ch2_bruschetta_btnRecipe">View Recipe</string>
+    <string name="ch2_bruschetta_txtIngredient">Ingredients</string>
+    <string name="ch2_bruschetta_txtItem1">4 plum tomatoes</string>
+    <string name="ch2_bruschetta_txtItem2">6 basil leaves</string>
+    <string name="ch2_bruschetta_txtItem3">3 garlic cloves, chopped</string>
+    <string name="ch2_bruschetta_txtItem4">3 TB olive oil</string>
+    <string name="ch2_bruschetta_txtDirections">Directions</string>
+    <string name="ch2_bruschetta_txtMix">Combine the Ingredients and add salt to taste. Top French bread slices with mixture.</string>
+
+    <string name="ch2_hostel_titleID">Dingo Moon Hostel</string>
+    <string name="ch2_hostel_buttonID">HOSTEL INFORMATION</string>
+    <string name="ch2_hostel_address">88 Kangaroo Lane Darwin, Australia</string>
+    <string name="ch2_hostel_cost">Cost Range: $18-$22 a night</string>
+
+    <string name="ch2_segway_title_ID">Segway Rentals</string>
+    <string name="ch2_segway_description_ID">Experience the wonder of this future advancement of transportation for a city group tour starting at noon each day.</string>
+    <string name="ch2_segway_button_ID">RENT A SEGWAY</string>
+    <string name="ch2_segway_price_ID">The Segway tour is only $52 for an amazing 2-hour journey.</string>
+
+    <string name="ch_3_concert_title">Ticket Vault</string>
+    <string name="ch_3_concert_ticket_num">Number of Tickets</string>
+    <string name="ch_3_concert_btnCost">FIND THE COST</string>
+    <string-array name="ch_3_concert_txtGroup">
+        <item>Life Revealed</item>
+        <item>Spatial Sense</item>
+        <item>Zig Zag</item>
+    </string-array>
+
+    <string name="ch3_boat_title">Catalina Ferry Tickets</string>
+    <string name="ch3_boat_num">Number of Tickets</string>
+    <string name="ch3_boat_btnSubmit">COMPUTE COST</string>
+    <string-array name="ch_3_boat_txtGroup">
+        <item>To Catalina Island</item>
+        <item>To Long Beach</item>
+    </string-array>
+
+    <string name="ch3_triathlon_title">Triathlon Registration</string>
+    <string name="ch3_triathlon_num">Number of Athletes on Team</string>
+    <string name="ch3_triathlon_btnSubmit">COMPUTE COST</string>
+    <string-array name="ch3_triathlon_txtGroup">
+        <item>Lake Placid</item>
+        <item>Big Island Hawaii</item>
+        <item>Miami</item>
+    </string-array>
+
+    <string name="ch4_medical_textView_Convert">Convert Patient Weight</string>
+    <string name="ch4_medical_editText_Input">Weight of Patient</string>
+    <string name="ch4_medical_rb_Lbtokg">Convert Pounds to Kilograms</string>
+    <string name="ch4_medical_rb_Kgtolb">Convert Kilograms to Pounds</string>
+    <string name="ch4_medical_btn_Convert">Convert Weight</string>
+
+    <string name="ch4_carwash_title">Car Wash Packages</string>
+    <string name="ch4_carwash_promo">Buy 12+ washes for a discount</string>
+    <string name="ch4_carwash_inputText">Enter the number of washes</string>
+    <string name="ch4_carwash_RB1">Exterior Only</string>
+    <string name="ch4_carwash_RB2">Exterior with Interior Vacuum</string>
+    <string name="ch4_carwash_calculateBtn">CALCULATE PACKAGE</string>
+
+    <string name="ch4_photoprint_quantityTextView">How many photos?</string>
+    <string name="ch4_photoprint_quantityHint">Enter Number</string>
+    <string name="ch4_photoprint_sizeTextView">What size photos?</string>
+    <string name="ch4_photoprint_radioButton1">4 X 6 Prints (19 cents each)</string>
+    <string name="ch4_photoprint_radioButton2">5 X 7 Prints (49 cents each)</string>
+    <string name="ch4_photoprint_radioButton3">8 X 10 Prints (79 cents each)</string>
+    <string name="ch4_photoprint_submitButton">ORDER PRINTS</string>
+
+    <string name="ch5_city_willis">Willis Tower Image</string>
+    <string name="ch5_city_pier">Navy Pier Image</string>
+    <string name="ch5_city_water">Water Tower Image</string>
+    <string name="ch5_city_title_ch5_city_willis">Willis Tower</string>
+    <string name="ch5_city_title_ch5_city_pier">Navy Pier</string>
+    <string name="ch5_city_title_ch5_city_water">Water Tower</string>
+
+    <string name="ch5_bike_beach">Beach Bike Rental Image</string>
+    <string name="ch5_bike_mountain">Mountain Bike Rental Image</string>
+    <string name="ch5_bike_website">Bike Rental Website Image</string>
+    <string name="ch5_bike_title_mountain">Mountain Bike Rental</string>
+    <string name="ch5_bike_title_beach">Beach Bike Rental</string>
+
+    <string name="ch5_chocoloatecafe_mousse">Chocolate Mousse Image</string>
+    <string name="ch5_chocoloatecafe_cake">Chocolate Cake Image</string>
+    <string name="ch5_chocoloatecafe_macaron">Chocolate Macaron Image</string>
+
+
+</resources>
