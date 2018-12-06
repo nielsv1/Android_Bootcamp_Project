@@ -7,9 +7,6 @@ This project is a graded University project at UMBC, Information Systems 413: GU
 Contributers are:
 
 Niels Verhoeven (myself)
-
-Caleb Massey
-
+Caleb Massey 
 David Luco
-
 Eze Ugbor
