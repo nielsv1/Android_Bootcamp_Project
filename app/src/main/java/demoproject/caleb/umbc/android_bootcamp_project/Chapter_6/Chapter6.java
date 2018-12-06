@@ -26,10 +26,10 @@ public class Chapter6 extends ListActivity {
                 break;
             case 2:
                 startActivity(new Intent(Chapter6.this, CelticSplash.class));
-                break;/*
+                break;
             case 3:
-                startActivity(new Intent(Chapter6.this, FarmSounds.class));
-                break; */
+                startActivity(new Intent(Chapter6.this, FarmAnimalSoundsSplash.class));
+                break;
         }
     }
 
