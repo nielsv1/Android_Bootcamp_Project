@@ -246,7 +246,6 @@
         <activity android:name=".Chapter_11.BMIOutput" />
         <activity android:name=".Chapter_11.InterestCalculator" />
         <activity android:name=".Chapter_11.InterestPayment"></activity>
-        <activity android:name=".Chapter_12.Chapter12"></activity>
     </application>
 
 </manifest>
