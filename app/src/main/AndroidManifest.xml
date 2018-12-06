@@ -169,8 +169,7 @@
         <activity android:name=".Chapter_5.ChocolateCafe.Mousse" />
         <activity android:name=".Chapter_5.ChocolateCafe.Cake" />
         <activity android:name=".Chapter_5.ChocolateCafe.Macaron" />
-
-                <activity android:name=".Chapter_6.AlohaMusic">
+        <activity android:name=".Chapter_6.AlohaMusic">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -198,8 +197,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
         <activity android:name=".Chapter_6.FarmSounds">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -207,7 +204,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Chapter_6.FarmAnimalSoundsSplash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -215,8 +211,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
         <activity android:name=".Chapter_10.FacialExpressions.FacialExpressions" />
         <activity android:name=".Chapter_10.GolfStroke.GolfStroke" />
         <activity android:name=".Chapter_10.NorthernLightsAnimation.NorthernLightsAnimation" />
@@ -242,7 +236,8 @@
         <activity android:name=".Chapter_11.Chapter11" />
         <activity android:name=".Chapter_11.BMICalculator" />
         <activity android:name=".Chapter_11.BMIOutput" />
-        <activity android:name=".Chapter_11.InterestCalculator"></activity>
+        <activity android:name=".Chapter_11.InterestCalculator" />
+        <activity android:name=".Chapter_11.InterestPayment"></activity>
     </application>
 
 </manifest>

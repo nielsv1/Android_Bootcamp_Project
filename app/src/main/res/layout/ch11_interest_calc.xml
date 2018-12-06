@@ -14,7 +14,7 @@
         android:layout_marginTop="11dp"
         android:ems="10"
         android:hint="Loan Principal"
-        android:inputType="number"
+        android:inputType="number|numberSigned|numberDecimal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ch11_yearsInput" />
 
@@ -41,7 +41,7 @@
         android:layout_marginTop="13dp"
         android:ems="10"
         android:hint="Monthly Payment"
-        android:inputType="number"
+        android:inputType="number|numberSigned|numberDecimal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
@@ -50,15 +50,15 @@
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginStart="84dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="Number of Years"
-        android:inputType="number"
+        android:inputType="number|numberSigned|numberDecimal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ch11_paymentInput" />
 
     <Button
-        android:id="@+id/ch11_bmi_btnCompute"
+        android:id="@+id/ch11_int_compute"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="39dp"
@@ -80,7 +80,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ch11_bmi_btnCompute"
+        app:layout_constraintTop_toBottomOf="@+id/ch11_int_compute"
         app:srcCompat="@drawable/mortgage" />
 
 </android.support.constraint.ConstraintLayout>
