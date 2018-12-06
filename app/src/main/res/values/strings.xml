@@ -94,6 +94,12 @@
     <string name="imageDescription">Number of Years Image</string>
     <string name="txtPayment">Monthly Payment</string>
     <string name="imgDescription">Number of Years Image</string>
+    <string name="ch11_bmi_titleText">BMI Calculator</string>
+    <string name="ch11_bmi_weightInput">Weight</string>
+    <string name="ch11_bmi_heightInput">Height</string>
+    <string name="ch11_bmi_btnCompute">Compute BMI</string>
+    <string name="ch11_bmi_out_titleText">BMI Calculator</string>
+    <string name="ch11_bmi_out_bmiOutput">null</string>
 
 
 </resources>

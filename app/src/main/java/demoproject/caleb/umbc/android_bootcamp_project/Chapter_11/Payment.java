@@ -18,8 +18,8 @@ public class Payment extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ch11_activity_payment);
 
-        TextView monthlyPayment = (TextView)findViewById(R.id.txtMonthlyPayment);
         ImageView image = (ImageView)findViewById(R.id.imgYears);
+        TextView monthlyPayment = (TextView)findViewById(R.id.txtMonthlyPayment);
 
         SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
         int intYears = sharedPref.getInt ("key1", 0);
