@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="demoproject.caleb.umbc.android_bootcamp_project">
 
     <application
@@ -8,7 +9,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -167,21 +169,17 @@
         <activity android:name=".Chapter_5.ChocolateCafe.Mousse" />
         <activity android:name=".Chapter_5.ChocolateCafe.Cake" />
         <activity android:name=".Chapter_5.ChocolateCafe.Macaron" />
-
-
         <activity android:name=".Chapter_10.FacialExpressions.FacialExpressions" />
         <activity android:name=".Chapter_10.GolfStroke.GolfStroke" />
         <activity android:name=".Chapter_10.NorthernLightsAnimation.NorthernLightsAnimation" />
-        <activity android:name=".Chapter_10.Chapter10" >
+        <activity android:name=".Chapter_10.Chapter10">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Chapter_2.Information_Page" />
-
         <activity android:name=".Chapter_1.Chapter1" />
         <activity android:name=".Chapter_2.Chapter2" />
         <activity android:name=".Chapter_3.Chapter3" />
@@ -196,7 +194,7 @@
         <activity android:name=".Chapter_11.Chapter11" />
         <activity android:name=".Chapter_11.BMICalculator" />
         <activity android:name=".Chapter_11.BMIOutput" />
-
+        <activity android:name=".Chapter_11.InterestCalculator"></activity>
     </application>
 
 </manifest>
