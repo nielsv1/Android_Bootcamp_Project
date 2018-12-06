@@ -16,9 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
-
         <activity android:name=".Chapter_1.HelloWorldApp">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,7 +23,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Chapter_1.Tech_Quotes">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -34,8 +30,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
         <activity android:name=".Chapter_1.Dessert_Names">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -43,8 +37,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
         <activity android:name=".Chapter_1.Large_Tech_Companies">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -52,8 +44,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
         <activity android:name=".Chapter_2.BruschettaMain">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -68,8 +58,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
         <activity android:name=".Chapter_2.Youth_Hostel_App">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -84,8 +72,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
         <activity android:name=".Chapter_2.SegwayMain">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -100,8 +86,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
         <activity android:name=".Chapter_3.ConcertTicket">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -109,9 +93,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
-
         <activity android:name=".Chapter_3.TriathlonRegistration">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -119,7 +100,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Chapter_3.BoatExpress">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -127,8 +107,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
         <activity android:name=".Chapter_4.MedicalCalculator">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -136,15 +114,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".Chapter_4.CarWash" >
+        <activity android:name=".Chapter_4.CarWash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Chapter_4.PhotoPrint">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -152,8 +128,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
         <activity android:name=".Chapter_5.CityGuide.CityGuide">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -169,9 +143,7 @@
             android:label="@string/ch5_city_title_ch5_city_pier" />
         <activity
             android:name=".Chapter_5.CityGuide.Water"
-            android:label="@string/ch5_city_title_ch5_city_water"></activity>
-
-
+            android:label="@string/ch5_city_title_ch5_city_water" />
         <activity android:name=".Chapter_5.BikeRental.BikeRental">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -181,12 +153,10 @@
         </activity>
         <activity
             android:name=".Chapter_5.BikeRental.Mountain"
-            android:label="@string/ch5_bike_title_mountain"/>
+            android:label="@string/ch5_bike_title_mountain" />
         <activity
             android:name=".Chapter_5.BikeRental.Beach"
-            android:label="@string/ch5_bike_title_beach"></activity>
-
-
+            android:label="@string/ch5_bike_title_beach" />
         <activity android:name=".Chapter_5.ChocolateCafe.ChocolateCafe">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -196,9 +166,7 @@
         </activity>
         <activity android:name=".Chapter_5.ChocolateCafe.Mousse" />
         <activity android:name=".Chapter_5.ChocolateCafe.Cake" />
-        <activity android:name=".Chapter_5.ChocolateCafe.Macaron"></activity>
-
-
+        <activity android:name=".Chapter_5.ChocolateCafe.Macaron" />
         <activity android:name=".Chapter_1.Chapter1" />
         <activity android:name=".Chapter_2.Chapter2" />
         <activity android:name=".Chapter_3.Chapter3" />
@@ -209,7 +177,12 @@
         <activity android:name=".Chapter_8.Chapter8" />
         <activity android:name=".Chapter_9.Chapter9" />
         <activity android:name=".Chapter_10.Chapter10" />
-        <activity android:name=".Chapter_11.Chapter11"></activity>
+        <activity android:name=".Chapter_11.ElectricCar" />
+        <activity android:name=".Chapter_11.Payment" />
+        <activity android:name=".Chapter_11.Chapter11" />
+        <activity android:name=".Chapter_11.BMICalculator" />
+        <activity android:name=".Chapter_11.BMIOutput" />
+
     </application>
 
 </manifest>

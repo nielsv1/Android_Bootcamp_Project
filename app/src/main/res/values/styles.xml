@@ -4,4 +4,8 @@
     <style name="AppTheme" parent="Theme.AppCompat">
     </style>
 
+
+    <style name="ch_11_bmi_theme" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+
 </resources>

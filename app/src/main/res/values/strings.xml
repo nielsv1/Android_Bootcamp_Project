@@ -98,6 +98,23 @@
     <string name="title_activity_golf_tween">GolfTween</string>
     <string name="ch10_btnStart3">Perfect Golf Swing</string>
     <string name="ch10_btnStop2">Rotate Your Swing</string>
+  
+  
+    <string name="app_name_ec">Electric Car Financing</string>
+    <string name="txtTitle">Electric Car Financing</string>
+    <string name="hint1">Number of Years</string>
+    <string name="hint2">Car Loan Amount</string>
+    <string name="hint3">Interest Rate</string>
+    <string name="btnPayment">Car Payment</string>
+    <string name="imageDescription">Number of Years Image</string>
+    <string name="txtPayment">Monthly Payment</string>
+    <string name="imgDescription">Number of Years Image</string>
+    <string name="ch11_bmi_titleText">BMI Calculator</string>
+    <string name="ch11_bmi_weightInput">Weight</string>
+    <string name="ch11_bmi_heightInput">Height</string>
+    <string name="ch11_bmi_btnCompute">Compute BMI</string>
+    <string name="ch11_bmi_out_titleText">BMI Calculator</string>
+    <string name="ch11_bmi_out_bmiOutput">null</string>
 
 
 </resources>

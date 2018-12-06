@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chapter_11.ch11_bmi_results">
+
+    <TextView
+        android:id="@+id/ch11_bmi_out_bmiOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="166dp"
+        android:layout_marginBottom="80dp"
+        android:text="@string/ch11_bmi_out_titleText"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/bmi2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ch11_bmi_out_titleText"
+        tools:text="@string/ch11_bmi_out_bmiOutput" />
+
+    <TextView
+        android:id="@+id/ch11_bmi_out_titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="18dp"
+        android:text="@string/ch11_bmi_out_titleText"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/ch11_bmi_out_bmiOutput"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/ch11_bmi_out_titleText" />
+
+    <ImageView
+        android:id="@+id/bmi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="86dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ch11_bmi_out_bmiOutput"
+        app:srcCompat="@drawable/bmi2" />
+</android.support.constraint.ConstraintLayout>
