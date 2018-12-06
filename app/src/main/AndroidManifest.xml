@@ -167,6 +167,20 @@
         <activity android:name=".Chapter_5.ChocolateCafe.Mousse" />
         <activity android:name=".Chapter_5.ChocolateCafe.Cake" />
         <activity android:name=".Chapter_5.ChocolateCafe.Macaron" />
+
+
+        <activity android:name=".Chapter_10.FacialExpressions.FacialExpressions" />
+        <activity android:name=".Chapter_10.GolfStroke.GolfStroke" />
+        <activity android:name=".Chapter_10.NorthernLightsAnimation.NorthernLightsAnimation" />
+        <activity android:name=".Chapter_10.Chapter10" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
         <activity android:name=".Chapter_1.Chapter1" />
         <activity android:name=".Chapter_2.Chapter2" />
         <activity android:name=".Chapter_3.Chapter3" />
@@ -176,7 +190,6 @@
         <activity android:name=".Chapter_7.Chapter7" />
         <activity android:name=".Chapter_8.Chapter8" />
         <activity android:name=".Chapter_9.Chapter9" />
-        <activity android:name=".Chapter_10.Chapter10" />
         <activity android:name=".Chapter_11.ElectricCar" />
         <activity android:name=".Chapter_11.Payment" />
         <activity android:name=".Chapter_11.Chapter11" />
