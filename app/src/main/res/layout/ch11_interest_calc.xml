@@ -6,24 +6,31 @@
     android:layout_height="match_parent"
     tools:context=".Chapter_11.BMICalculator">
 
+    <EditText
+        android:id="@+id/ch11_principalInput"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:hint="Loan Principal"
+        android:inputType="number|numberSigned|numberDecimal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ch11_yearsInput" />
+
     <TextView
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="74dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="74dp"
-        android:text="@string/ch11_bmi_titleText"
-        android:textColor="@android:color/holo_red_dark"
-        android:textSize="36sp"
-        app:layout_constraintBottom_toTopOf="@+id/ch11_paymentInput"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="16dp"
+        android:text="Home Mortgage Interest"
+        android:textAlignment="center"
+        android:textColor="?attr/colorAccent"
+        android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.13"
-        app:layout_constraintVertical_chainStyle="spread_inside"
-        tools:text="@string/ch11_bmi_titleText" />
+        tools:text="Home Mortgage Interest" />
 
     <EditText
         android:id="@+id/ch11_paymentInput"
@@ -31,14 +38,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="85dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="84dp"
-        android:layout_marginBottom="92dp"
+        android:layout_marginTop="13dp"
         android:ems="10"
-        android:hint="@string/ch11_bmi_weightInput"
-        android:inputType="number"
-        app:layout_constraintBottom_toTopOf="@+id/ch11_int_compute"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:hint="Monthly Payment"
+        android:inputType="number|numberSigned|numberDecimal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
@@ -47,13 +50,10 @@
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginStart="84dp"
-        android:layout_marginEnd="85dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
-        android:hint="@string/ch11_bmi_heightInput"
-        android:inputType="number"
-        app:layout_constraintBottom_toTopOf="@+id/ch11_int_compute"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:hint="Number of Years"
+        android:inputType="number|numberSigned|numberDecimal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ch11_paymentInput" />
 
@@ -61,16 +61,13 @@
         android:id="@+id/ch11_int_compute"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="133dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="133dp"
-        android:layout_marginBottom="8dp"
-        android:text="@string/ch11_bmi_btnCompute"
-        app:layout_constraintBottom_toTopOf="@+id/imageView2"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="9dp"
+        android:text="Compute Interest"
+        android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ch11_yearsInput"
-        tools:text="@string/ch11_bmi_btnCompute" />
+        app:layout_constraintTop_toBottomOf="@+id/ch11_principalInput"
+        tools:text="Compute Interest" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -84,6 +81,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ch11_int_compute"
-        app:srcCompat="@drawable/bmi1" />
+        app:srcCompat="@drawable/mortgage" />
 
 </android.support.constraint.ConstraintLayout>

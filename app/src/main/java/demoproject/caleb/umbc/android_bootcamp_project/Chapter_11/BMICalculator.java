@@ -17,9 +17,9 @@ public class BMICalculator extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ch11_activity_bmicalculator);
-        final EditText weight_select = findViewById(R.id.ch11_bmi_weightInput);
-        final EditText height_select = findViewById(R.id.ch11_bmi_heightInput);
-        Button button = findViewById(R.id.ch11_bmi_btnCompute);
+        final EditText weight_select = findViewById(R.id.ch11_paymentInput);
+        final EditText height_select = findViewById(R.id.ch11_yearsInput);
+        Button button = findViewById(R.id.ch11_int_compute);
         final SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
 
         button.setOnClickListener(new View.OnClickListener() {

@@ -15,6 +15,8 @@ public class Chapter7 extends ListActivity {
         super.onCreate(savedInstanceState);
         String[] list = {"Chapter 7: Reveal! Displaying Pictures in a GridView", "Endangered Species", "Car Dealership", "Seven Wonders"};
 
+        String[] list = {"Endangered Species", "Car Dealership", "Seven Wonders"};
+
         setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, list));
     }
 
@@ -27,7 +29,7 @@ public class Chapter7 extends ListActivity {
                 break;
             case 2:
                 startActivity(new Intent(Chapter7.this, CarDealership.class));
-                break;
+                break;  
             case 3:
                 startActivity(new Intent(Chapter7.this, SevenWonders.class));
                 break;

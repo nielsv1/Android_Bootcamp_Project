@@ -14,6 +14,8 @@ public class Chapter11 extends ListActivity {
         super.onCreate(savedInstanceState);
         String[] list = {"Chapter 11: Discover! Persistent Data", "Electric Car", "BMI Calculator", "Interest Calculator"};
 
+        String[] list = {"Electric Car", "BMI Calculator", "Interest Calculator"};
+
         setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, list));
     }
 
