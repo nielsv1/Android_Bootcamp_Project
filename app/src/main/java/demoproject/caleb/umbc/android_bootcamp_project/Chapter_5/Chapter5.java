@@ -16,7 +16,7 @@ public class Chapter5 extends ListActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        String[] list = {"City Guide", "Bike Rental", "Chocolate Cake"};
+        String[] list = {"Chapter 5: Investigate! Android Lists, Arrays, and Web Browsers", "City Guide", "Bike Rental", "Chocolate Cake"};
 
         setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, list));
     }
@@ -24,12 +24,14 @@ public class Chapter5 extends ListActivity {
     protected void onListItemClick(ListView l, View v, int position, long id) {
         switch (position) {
             case 0:
-                startActivity(new Intent(Chapter5.this, CityGuide.class));
                 break;
             case 1:
-                startActivity(new Intent(Chapter5.this, BikeRental.class));
+                startActivity(new Intent(Chapter5.this, CityGuide.class));
                 break;
             case 2:
+                startActivity(new Intent(Chapter5.this, BikeRental.class));
+                break;
+            case 3:
                 startActivity(new Intent(Chapter5.this, ChocolateCafe.class));
                 break;
         }

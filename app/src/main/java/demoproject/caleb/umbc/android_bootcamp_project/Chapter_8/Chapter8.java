@@ -2,29 +2,15 @@ package demoproject.caleb.umbc.android_bootcamp_project.Chapter_8;
 
 import android.app.ListActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.ArrayAdapter;
 
-public class Chapter8 extends ListActivity {
+import demoproject.caleb.umbc.android_bootcamp_project.R;
+
+public class Chapter8 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        String[] list = {};
-
-        setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, list));
+        setContentView(R.layout.activity_chapter8);
     }
-/*
-    protected void onListItemClick(ListView l, View v, int position, long id) {
-        switch (position) {
-            case 0:
-                startActivity(new Intent(Chapter8.this, Chapter1.class));
-                break;
-            case 1:
-                startActivity(new Intent(Chapter8.this, Chapter2.class));
-                break;
-            case 2:
-                startActivity(new Intent(Chapter8.this, Chapter3.class));
-                break;
-        }
-    }
-    */
 }

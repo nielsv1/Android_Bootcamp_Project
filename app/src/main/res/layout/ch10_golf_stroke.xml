@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chapter_10.GolfStroke.GolfStroke">
+
+    <ImageView
+        android:id="@+id/imgGolfer"
+        android:layout_width="700px"
+        android:layout_height="1000px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/ch10_imgDescription3"/>
+
+    <Button
+        android:id="@+id/ch10_btnStart3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imgGolfer"
+        android:layout_marginTop="10dp"
+        android:text="@string/ch10_btnStart3"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/ch10_btnStart4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/ch10_btnStop2"
+        android:textSize="25sp"
+        android:layout_below="@+id/ch10_btnStart3"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

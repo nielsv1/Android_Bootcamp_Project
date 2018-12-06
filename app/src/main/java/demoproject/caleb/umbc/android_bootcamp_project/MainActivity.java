@@ -10,6 +10,7 @@ import android.widget.ListView;
 import demoproject.caleb.umbc.android_bootcamp_project.Chapter_1.Chapter1;
 import demoproject.caleb.umbc.android_bootcamp_project.Chapter_10.Chapter10;
 import demoproject.caleb.umbc.android_bootcamp_project.Chapter_11.Chapter11;
+import demoproject.caleb.umbc.android_bootcamp_project.Chapter_12.Chapter12;
 import demoproject.caleb.umbc.android_bootcamp_project.Chapter_2.Chapter2;
 import demoproject.caleb.umbc.android_bootcamp_project.Chapter_3.Chapter3;
 import demoproject.caleb.umbc.android_bootcamp_project.Chapter_4.Chapter4;
@@ -24,7 +25,7 @@ public class MainActivity extends ListActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        String[ ] attraction = {"Chapter 1: Voila! Meet Android", "Chapter 2: Simplify! The Android User Interface", "Chapter 3: Engage! Android User Input, Variables, and Operations", "Chapter 4: Explore! Icons and Decision-Making Controls", "Chapter 5: Investigate! Android Lists, Arrays, and Web Browsers", "Chapter 6: Jam! Implementing Audio in Android Apps", "Chapter 7: Reveal! Displaying Pictures in a GridView", "Chapter 8: Design! Using a DataPicker on a Tablet", "Chapter 9: Customize! Navigating with a Master/Detail Flow Activity on a Tablet", "Chapter 10: Move! Creating Animation", "Chapter 11: Discover! Persistent Data"};
+        String[ ] attraction = {"Chapter 1: Voila! Meet Android", "Chapter 2: Simplify! The Android User Interface", "Chapter 3: Engage! Android User Input, Variables, and Operations", "Chapter 4: Explore! Icons and Decision-Making Controls", "Chapter 5: Investigate! Android Lists, Arrays, and Web Browsers", "Chapter 6: Jam! Implementing Audio in Android Apps", "Chapter 7: Reveal! Displaying Pictures in a GridView", "Chapter 8: Design! Using a DataPicker on a Tablet", "Chapter 9: Customize! Navigating with a Master/Detail Flow Activity on a Tablet", "Chapter 10: Move! Creating Animation", "Chapter 11: Discover! Persistent Data", "Chapter 12: Finale! Publishing Your Android"};
 
         setListAdapter(new ArrayAdapter<String>(this, R.layout.activity_main, R.id.bootcamp, attraction));
     }
@@ -62,6 +63,9 @@ public class MainActivity extends ListActivity {
                 break;
             case 10:
                 startActivity(new Intent(MainActivity.this, Chapter11.class));
+                break;
+            case 11:
+                startActivity(new Intent(MainActivity.this, Chapter12.class));
                 break;
         }
     }

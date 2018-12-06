@@ -6,4 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".Chapter_9.Chapter9">
 
+    <TextView
+        android:id="@+id/ch9_output"
+        android:layout_width="308dp"
+        android:layout_height="311dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="@string/ch9_output"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </android.support.constraint.ConstraintLayout>
