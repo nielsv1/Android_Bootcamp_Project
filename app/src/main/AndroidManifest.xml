@@ -180,6 +180,7 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".Chapter_2.Information_Page" />
 
         <activity android:name=".Chapter_1.Chapter1" />
         <activity android:name=".Chapter_2.Chapter2" />
