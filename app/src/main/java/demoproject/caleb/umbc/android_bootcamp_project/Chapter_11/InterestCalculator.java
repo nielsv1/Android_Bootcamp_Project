@@ -15,8 +15,8 @@ public class InterestCalculator extends AppCompatActivity {
 
 
         final EditText montly_payment = findViewById(R.id.ch11_paymentInput);
-        final EditText num_years = findViewById(R.id.ch11_bmi_heightInput);
-        final EditText principalLoan = findViewById(R.id.ch11_bmi_heightInput);
+        final EditText num_years = findViewById(R.id.ch11_yearsInput);
+        final EditText principalLoan = findViewById(R.id.ch11_principalInput);
 
 
     }
