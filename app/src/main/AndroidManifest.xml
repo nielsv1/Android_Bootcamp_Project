@@ -213,21 +213,11 @@
         <activity android:name=".Chapter_8.Chapter8" />
         <activity android:name=".Chapter_9.Chapter9" />
 
-        <activity android:name=".Chapter_10.Chapter10" />
-        <activity android:name=".Chapter_11.Chapter11" />
-        <activity
-            android:name=".Chapter_10.NorthernLightsAnimation.NorthernLightsAnimation"
-            android:label="@string/title_activity_northern_lights_animation" />
         <activity
             android:name=".Chapter_10.NorthernLightsAnimation.Tween"
             android:label="@string/title_activity_tween" />
         <activity
-            android:name=".Chapter_10.FacialExpressions.FacialExpressions"
-            android:label="@string/title_activity_facial_expressions" />
-        <activity
-            android:name=".Chapter_10.GolfStroke.GolfStroke"
-            android:label="@string/title_activity_golf_stroke" />
-        <activity
+
             android:name=".Chapter_10.GolfStroke.GolfTween"
             android:label="@string/title_activity_golf_tween" />
         <activity
@@ -241,7 +231,6 @@
             android:label="@string/title_activity_seven_wonders"></activity>
         <activity android:name=".Chapter_11.ElectricCar" />
         <activity android:name=".Chapter_11.Payment" />
-        <activity android:name=".Chapter_11.Chapter11" />
         <activity android:name=".Chapter_11.BMICalculator" />
         <activity android:name=".Chapter_11.BMIOutput" />
         <activity android:name=".Chapter_11.InterestCalculator" />

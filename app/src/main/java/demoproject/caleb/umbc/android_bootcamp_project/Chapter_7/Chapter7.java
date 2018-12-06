@@ -13,6 +13,8 @@ public class Chapter7 extends ListActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        String[] list = {"Chapter 7: Reveal! Displaying Pictures in a GridView", "Endangered Species", "Car Dealership", "Seven Wonders"};
+
         String[] list = {"Endangered Species", "Car Dealership", "Seven Wonders"};
 
         setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, list));
@@ -21,12 +23,14 @@ public class Chapter7 extends ListActivity {
     protected void onListItemClick(ListView l, View v, int position, long id) {
         switch (position) {
             case 0:
-                startActivity(new Intent(Chapter7.this, EndangeredSpecies.class));
                 break;
             case 1:
-                startActivity(new Intent(Chapter7.this, CarDealership.class));
+                startActivity(new Intent(Chapter7.this, EndangeredSpecies.class));
                 break;
             case 2:
+                startActivity(new Intent(Chapter7.this, CarDealership.class));
+                break;  
+            case 3:
                 startActivity(new Intent(Chapter7.this, SevenWonders.class));
                 break;
         }

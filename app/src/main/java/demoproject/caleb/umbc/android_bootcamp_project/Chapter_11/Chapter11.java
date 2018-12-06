@@ -12,6 +12,8 @@ public class Chapter11 extends ListActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        String[] list = {"Chapter 11: Discover! Persistent Data", "Electric Car", "BMI Calculator", "Interest Calculator"};
+
         String[] list = {"Electric Car", "BMI Calculator", "Interest Calculator"};
 
         setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, list));
@@ -20,12 +22,14 @@ public class Chapter11 extends ListActivity {
     protected void onListItemClick(ListView l, View v, int position, long id) {
         switch (position) {
             case 0:
-                startActivity(new Intent(Chapter11.this, ElectricCar.class));
                 break;
             case 1:
-                startActivity(new Intent(Chapter11.this, BMICalculator.class));
+                startActivity(new Intent(Chapter11.this, ElectricCar.class));
                 break;
             case 2:
+                startActivity(new Intent(Chapter11.this, BMICalculator.class));
+                break;
+            case 3:
                 startActivity(new Intent(Chapter11.this, InterestCalculator.class));
                 break;
         }

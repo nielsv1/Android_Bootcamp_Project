@@ -17,7 +17,7 @@ public class Chapter10 extends ListActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        String[] list = {"Northern Lights Animation", "Facial Expressions", "Golf Stroke"};
+        String[] list = {"Chapter 10: Move! Creating Animation", "Northern Lights Animation", "Facial Expressions", "Golf Stroke"};
 
         setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, list));
     }
@@ -25,12 +25,14 @@ public class Chapter10 extends ListActivity {
     protected void onListItemClick(ListView l, View v, int position, long id) {
         switch (position) {
             case 0:
-                startActivity(new Intent(Chapter10.this, NorthernLightsAnimation.class));
                 break;
             case 1:
-                startActivity(new Intent(Chapter10.this, FacialExpressions.class));
+                startActivity(new Intent(Chapter10.this, NorthernLightsAnimation.class));
                 break;
             case 2:
+                startActivity(new Intent(Chapter10.this, FacialExpressions.class));
+                break;
+            case 3:
                 startActivity(new Intent(Chapter10.this, GolfStroke.class));
                 break;
         }
