@@ -29,7 +29,7 @@ public class BMIOutput extends AppCompatActivity {
         Long weight = sharedPref.getLong("weight", 0);
         Long height = sharedPref.getLong("height", 0);
 
-        long result = (weight * 703) / height;
+        long result = (long) ((weight * 703) / (Math.pow(height, 2)));
         DecimalFormat bmi_format = new DecimalFormat("###.#");
         result = Long.parseLong(bmi_format.format(result));
         output.setText("Your body mass index is " + bmi_format.format(result));
