@@ -122,6 +122,12 @@
     <string name="title_activity_golf_tween">GolfTween</string>
     <string name="ch10_btnStart3">Perfect Golf Swing</string>
     <string name="ch10_btnStop2">Rotate Your Swing</string>
+    <string name="title_activity_endangered_species">EndangeredSpecies</string>
+    <string name="ch7_imgLarge">Endanger Species Images</string>
+    <string name="ch7_imgLarge2">Seven Wonders Image</string>
+    <string name="ch7_imgLarge3">Car Dealership Image</string>
+    <string name="title_activity_car_dealership">CarDealership</string>
+    <string name="title_activity_seven_wonders">SevenWonders</string>
 
 
     <string name="app_name_ec">Electric Car Financing</string>

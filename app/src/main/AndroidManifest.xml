@@ -22,119 +22,102 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".Chapter_1.Tech_Quotes">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".Chapter_1.Dessert_Names">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".Chapter_1.Large_Tech_Companies">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".Chapter_2.BruschettaMain">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".Chapter_2.BruschettaRecipe">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".Chapter_2.Youth_Hostel_App">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name="Chapter_2.Information_Page">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".Chapter_2.SegwayMain">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".Chapter_2.SegwayOther">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".Chapter_3.ConcertTicket">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".Chapter_3.TriathlonRegistration">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".Chapter_3.BoatExpress">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".Chapter_4.MedicalCalculator">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".Chapter_4.CarWash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".Chapter_4.PhotoPrint">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".Chapter_5.CityGuide.CityGuide">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
@@ -150,7 +133,6 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
@@ -163,7 +145,6 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".Chapter_5.ChocolateCafe.Mousse" />
@@ -231,6 +212,33 @@
         <activity android:name=".Chapter_7.Chapter7" />
         <activity android:name=".Chapter_8.Chapter8" />
         <activity android:name=".Chapter_9.Chapter9" />
+
+        <activity android:name=".Chapter_10.Chapter10" />
+        <activity android:name=".Chapter_11.Chapter11" />
+        <activity
+            android:name=".Chapter_10.NorthernLightsAnimation.NorthernLightsAnimation"
+            android:label="@string/title_activity_northern_lights_animation" />
+        <activity
+            android:name=".Chapter_10.NorthernLightsAnimation.Tween"
+            android:label="@string/title_activity_tween" />
+        <activity
+            android:name=".Chapter_10.FacialExpressions.FacialExpressions"
+            android:label="@string/title_activity_facial_expressions" />
+        <activity
+            android:name=".Chapter_10.GolfStroke.GolfStroke"
+            android:label="@string/title_activity_golf_stroke" />
+        <activity
+            android:name=".Chapter_10.GolfStroke.GolfTween"
+            android:label="@string/title_activity_golf_tween" />
+        <activity
+            android:name=".Chapter_7.EndangeredSpecies"
+            android:label="@string/title_activity_endangered_species" />
+        <activity
+            android:name=".Chapter_7.CarDealership"
+            android:label="@string/title_activity_car_dealership" />
+        <activity
+            android:name=".Chapter_7.SevenWonders"
+            android:label="@string/title_activity_seven_wonders"></activity>
         <activity android:name=".Chapter_11.ElectricCar" />
         <activity android:name=".Chapter_11.Payment" />
         <activity android:name=".Chapter_11.Chapter11" />
