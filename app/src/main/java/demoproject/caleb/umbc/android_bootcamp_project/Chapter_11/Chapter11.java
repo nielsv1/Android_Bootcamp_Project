@@ -12,23 +12,23 @@ public class Chapter11 extends ListActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        String[] list = {};
+        String[] list = {"Electric Car", "Payment", "Electric Car"};
 
         setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, list));
     }
-/*
+
     protected void onListItemClick(ListView l, View v, int position, long id) {
         switch (position) {
             case 0:
-                startActivity(new Intent(Chapter11.this, Chapter1.class));
+                startActivity(new Intent(Chapter11.this, ElectricCar.class));
                 break;
             case 1:
-                startActivity(new Intent(Chapter11.this, Chapter2.class));
+                startActivity(new Intent(Chapter11.this, Payment.class));
                 break;
             case 2:
-                startActivity(new Intent(Chapter11.this, Chapter3.class));
+                startActivity(new Intent(Chapter11.this, ElectricCar.class));
                 break;
         }
     }
-    */
+
 }

@@ -85,5 +85,15 @@
     <string name="ch5_chocoloatecafe_cake">Chocolate Cake Image</string>
     <string name="ch5_chocoloatecafe_macaron">Chocolate Macaron Image</string>
 
+    <string name="app_name_ec">Electric Car Financing</string>
+    <string name="txtTitle">Electric Car Financing</string>
+    <string name="hint1">Number of Years</string>
+    <string name="hint2">Car Loan Amount</string>
+    <string name="hint3">Interest Rate</string>
+    <string name="btnPayment">Car Payment</string>
+    <string name="imageDescription">Number of Years Image</string>
+    <string name="txtPayment">Monthly Payment</string>
+    <string name="imgDescription">Number of Years Image</string>
+
 
 </resources>

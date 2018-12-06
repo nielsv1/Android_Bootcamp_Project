@@ -209,6 +209,9 @@
         <activity android:name=".Chapter_8.Chapter8" />
         <activity android:name=".Chapter_9.Chapter9" />
         <activity android:name=".Chapter_10.Chapter10" />
+        <activity android:name=".Chapter_11.ElectricCar">
+        </activity>
+        <activity android:name=".Chapter_11.Payment"></activity>
         <activity android:name=".Chapter_11.Chapter11"></activity>
     </application>
 
