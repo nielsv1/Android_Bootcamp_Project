@@ -16,7 +16,7 @@ import demoproject.caleb.umbc.android_bootcamp_project.R;
 public class EndangeredSpecies extends Activity {
 
     Integer[] Animals = {R.drawable.eagle, R.drawable.elephant,
-            R.drawable.gorilla, R.drawable.panda, R.drawable.panther,
+            R.drawable.gorilla, R.drawable.panda, R.drawable.panthers,
             R.drawable.polar};
 
     ImageView pic;

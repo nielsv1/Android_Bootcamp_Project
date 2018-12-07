@@ -9,8 +9,8 @@
 
     <GridView
         android:id="@+id/animalView"
-        android:layout_width="368dp"
-        android:layout_height="289dp"
+        android:layout_width="393dp"
+        android:layout_height="549dp"
         android:columnWidth="160dp"
         android:horizontalSpacing="5dp"
         android:numColumns="3"

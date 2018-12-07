@@ -10,7 +10,7 @@
     <GridView
         android:id="@+id/carView"
         android:layout_width="368dp"
-        android:layout_height="289dp"
+        android:layout_height="495dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -28,8 +28,8 @@
 
     <ImageView
         android:id="@+id/imgLarge3"
-        android:layout_width="165dp"
-        android:layout_height="162dp"
+        android:layout_width="270dp"
+        android:layout_height="300dp"
         android:layout_gravity="center_horizontal"
         android:contentDescription="@string/ch7_imgLarge3"
         android:paddingBottom="10dp" />
