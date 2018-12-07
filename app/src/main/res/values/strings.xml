@@ -85,5 +85,68 @@
     <string name="ch5_chocoloatecafe_cake">Chocolate Cake Image</string>
     <string name="ch5_chocoloatecafe_macaron">Chocolate Macaron Image</string>
 
+    <string name="ch6_aloha_Ukulele">Ukulele Image</string>
+    <string name="ch6_aloha_drums">Drum Image</string>
+    <string name="ch6_aloha_btnUkulele">Play Ukulele Song</string>
+    <string name="ch6_aloha_btnDrums">Play Drums Song</string>
+    <string name="ch6_aloha_txtSplash">Sounds of Hawaii</string>
+
+    <string name="ch6_celtic_title_activity_celtic_splash">CelticSplash</string>
+    <string name="ch6_celtic_Jig">Jig Image</string>
+    <string name="ch6_celtic_Bagpipes">Bagpipes Image</string>
+    <string name="ch6_celtic_btnJig">Play Jig Song</string>
+    <string name="ch6_celtic_btnBagpipes">Play Bagpipe Song</string>
+    <string name="ch6_celtic_txtCelticSplash">Celtic Sounds</string>
+
+    <string name="ch6_farm_Cow">Cow Image</string>
+    <string name="ch6_farm_Pig">Pig Image</string>
+    <string name="txtFarmSplash">Animal Sounds</string>
+    <string name="ch6_farm_btnCow">Listen to the Cows</string>
+    <string name="ch6_farm_btnPig">Listen to the Pigs</string>
+
+
+    <string name="ch8_output">This chapter covers design for tablets, so there is no work displayed here</string>
+
+    <string name="ch9_output">This chapter covers navigation for tablets, so there is no work displayed here</string>
+
+    <string name="title_activity_northern_lights_animation">NorthernLightsAnimation</string>
+    <string name="ch10_imgDescription">Northern Lights Image</string>
+    <string name="ch10_btnStart">Start Frame Animation</string>
+    <string name="ch10_btnStop">Start Tween Animation</string>
+    <string name="title_activity_tween">Tween</string>
+    <string name="title_activity_facial_expressions">FacialExpressions</string>
+    <string name="ch10_imgDescription2">Actor Image</string>
+    <string name="ch10_imgDescription3">Golfer Image</string>
+    <string name="ch10_btnStart2">See The Actor</string>
+    <string name="title_activity_golf_stroke">GolfStroke</string>
+    <string name="title_activity_golf_tween">GolfTween</string>
+    <string name="ch10_btnStart3">Perfect Golf Swing</string>
+    <string name="ch10_btnStop2">Rotate Your Swing</string>
+    <string name="title_activity_endangered_species">EndangeredSpecies</string>
+    <string name="ch7_imgLarge">Endanger Species Images</string>
+    <string name="ch7_imgLarge2">Seven Wonders Image</string>
+    <string name="ch7_imgLarge3">Car Dealership Image</string>
+    <string name="title_activity_car_dealership">CarDealership</string>
+    <string name="title_activity_seven_wonders">SevenWonders</string>
+
+
+    <string name="app_name_ec">Electric Car Financing</string>
+    <string name="txtTitle">Electric Car Financing</string>
+    <string name="hint1">Number of Years</string>
+    <string name="hint2">Car Loan Amount</string>
+    <string name="hint3">Interest Rate</string>
+    <string name="btnPayment">Car Payment</string>
+    <string name="imageDescription">Number of Years Image</string>
+    <string name="txtPayment">Monthly Payment</string>
+    <string name="imgDescription">Number of Years Image</string>
+    <string name="ch11_bmi_titleText">BMI Calculator</string>
+    <string name="ch11_bmi_weightInput">Weight</string>
+    <string name="ch11_bmi_heightInput">Height</string>
+    <string name="ch11_bmi_btnCompute">Compute BMI</string>
+    <string name="ch11_bmi_out_titleText">BMI Calculator</string>
+    <string name="ch11_bmi_out_bmiOutput">null</string>
+
+    <string name="ch12_output">This chapter covers how to publish your app, so there is no work displayed here</string>
+
 
 </resources>

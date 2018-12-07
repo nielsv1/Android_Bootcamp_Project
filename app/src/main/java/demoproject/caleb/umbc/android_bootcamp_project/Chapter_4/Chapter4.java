@@ -11,7 +11,7 @@ public class Chapter4 extends ListActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        String[] list = {"Medical Calculator", "Car Wash", "Photo Print"};
+        String[] list = {"Chapter 4: Explore! Icons and Decision-Making Controls", "Medical Calculator", "Car Wash", "Photo Print"};
 
         setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, list));
     }
@@ -19,12 +19,14 @@ public class Chapter4 extends ListActivity {
     protected void onListItemClick(ListView l, View v, int position, long id) {
         switch (position) {
             case 0:
-                startActivity(new Intent(Chapter4.this, MedicalCalculator.class));
                 break;
             case 1:
-                startActivity(new Intent(Chapter4.this, CarWash.class));
+                startActivity(new Intent(Chapter4.this, MedicalCalculator.class));
                 break;
             case 2:
+                startActivity(new Intent(Chapter4.this, CarWash.class));
+                break;
+            case 3:
                 startActivity(new Intent(Chapter4.this, PhotoPrint.class));
                 break;
         }

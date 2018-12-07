@@ -15,7 +15,7 @@ public class Chapter1 extends ListActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        String[] list = {"Hello World App", "Famous Technology Quotes App", "Android Dessert Names App", "Large Tech Companies"};
+        String[] list = {"Chapter 1: Voila! Meet Android","Hello World App", "Famous Technology Quotes App", "Android Dessert Names App", "Large Tech Companies"};
 
         setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, list));
     }
@@ -23,15 +23,17 @@ public class Chapter1 extends ListActivity {
     protected void onListItemClick(ListView l, View v, int position, long id) {
         switch (position) {
             case 0:
-                startActivity(new Intent(Chapter1.this, HelloWorldApp.class));
                 break;
             case 1:
-                startActivity(new Intent(Chapter1.this, Tech_Quotes.class));
+                startActivity(new Intent(Chapter1.this, HelloWorldApp.class));
                 break;
             case 2:
-                startActivity(new Intent(Chapter1.this, Dessert_Names.class));
+                startActivity(new Intent(Chapter1.this, Tech_Quotes.class));
                 break;
             case 3:
+                startActivity(new Intent(Chapter1.this, Dessert_Names.class));
+                break;
+            case 4:
                 startActivity(new Intent(Chapter1.this, Large_Tech_Companies.class));
                 break;
         }

@@ -14,7 +14,7 @@ public class Chapter3 extends ListActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        String[] list = {"Concert Tickets", "Catalina Island Boat Express", "Triathlon Registration "};
+        String[] list = {"Chapter 3: Engage! Android User Input, Variables, and Operations", "Concert Tickets", "Catalina Island Boat Express", "Triathlon Registration "};
 
         setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, list));
     }
@@ -22,12 +22,14 @@ public class Chapter3 extends ListActivity {
     protected void onListItemClick(ListView l, View v, int position, long id) {
         switch (position) {
             case 0:
-                startActivity(new Intent(Chapter3.this, ConcertTicket.class));
                 break;
             case 1:
-                startActivity(new Intent(Chapter3.this, BoatExpress.class));
+                startActivity(new Intent(Chapter3.this, ConcertTicket.class));
                 break;
             case 2:
+                startActivity(new Intent(Chapter3.this, BoatExpress.class));
+                break;
+            case 3:
                 startActivity(new Intent(Chapter3.this, TriathlonRegistration.class));
                 break;
         }
